@@ -47,7 +47,7 @@ libtoolize --copy --force
 gettextize --copy --force
 aclocal
 autoconf
-aitomake -a -c
+automake -a -c
 %configure
 %{__make}
 
