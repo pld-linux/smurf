@@ -1,8 +1,8 @@
 Summary:	A GPL sound font editor
 Summary(pl):	Edytor fontów d¼wiêkowych
 Name:		smurf
-Version:	0.52.1
-Release:	2
+Version:	0.52.6
+Release:	1
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Group:		X11/Applications/Multimedia
