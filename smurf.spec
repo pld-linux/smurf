@@ -10,9 +10,13 @@ Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/smurf/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://smurf.sourceforge.net/
+%ifnarch sparc sparc64
+BuildRequires:	alsa-lib-devel
+%endif
 BuildRequires:	audiofile-devel
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
+BuildRequires:	libsndfile-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
