@@ -5,7 +5,7 @@ Version:	0.52.6
 Release:	1
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/smurf/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-remove_private_gettext.m4.patch
