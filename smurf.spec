@@ -41,10 +41,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d %{_applnkdir}/Multimedia
+install -d $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
 
 make install DESTDIR=$RPM_BUILD_ROOT
-install %{SOURCE1} %{_applnkdir}/Multimedia
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
 
 gzip -9nf AUTHORS NEWS README ChangeLog
 
