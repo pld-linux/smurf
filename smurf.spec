@@ -1,5 +1,5 @@
 Summary:	A GPL sound font editor
-Summary(pl0:	Edytor fontów d¼wiêkowych
+Summary(pl):	Edytor fontów d¼wiêkowych
 Name:		smurf
 Version:	0.52.1
 Release:	2
@@ -46,6 +46,7 @@ wykorzystywaæ dowoln± 16 bitow± kartê obs³ugiwan± przez OSS.
 %patch -p1
 
 %build
+rm -f missing
 libtoolize --copy --force
 gettextize --copy --force
 aclocal
