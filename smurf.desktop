@@ -2,6 +2,7 @@
 Name=smurf
 Type=Application
 Comment=A sound font editor
-Comment[pl]=Edytor fontów d¼wiêkowych
+Comment[pl]=Edytor fontÃ³w dÅºwiÄ™kowych
 Exec=smurf
 Terminal=0
+# vi: encoding=utf-8
