@@ -45,7 +45,7 @@ wykorzystywaæ dowoln± 16 bitow± kartê obs³ugiwan± przez OSS.
 
 %build
 rm -f missing
-libtoolize --copy --force
+%{__libtoolize}
 gettextize --copy --force
 aclocal
 %{__autoconf}
