@@ -23,14 +23,14 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Smurf is a GTK based sound font editor. Sound font files are a
+Smurf is a GTK+ based sound font editor. Sound font files are a
 collection of audio samples and other data that describe instruments
 for wavetable sound cards. Smurf currently supports the AWE 32/64 and
 has limited support for the GUS/SoftOSS driver which can use any OSS
 supported 16 bit sound card.
 
 %description -l pl
-Smurf to edytor "fontów d¼wiêkowych" oparty na bibliotece GTK. Pliki
+Smurf to edytor "fontów d¼wiêkowych" oparty na bibliotece GTK+. Pliki
 "fontów" s± zbiorem próbek d¼wiêków po³±czonych z dodatkowymi danymi,
 które razem opisuj± instrumenty dla kart d¼wiêkowych wykorzystuj±cych
 wavetable. Smurf aktualnie obs³uguje karty AWE 32/64, ma tak¿e
