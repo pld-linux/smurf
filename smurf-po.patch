@@ -1,6 +1,14 @@
 --- smurf-0.52.6/po/de.po~	Wed Aug  4 01:12:47 2004
 +++ smurf-0.52.6/po/de.po	Wed Aug  4 01:12:47 2004
-@@ -53,7 +53,7 @@
+@@ -46,14 +46,14 @@
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: smurf 0.52.6\n"
+ "POT-Creation-Date: 2001-11-01 22:56-0800\n"
+ "PO-Revision-Date: 2000-09-14 18:51+0200\n"
+ "Last-Translator: Johannes Drechsel-Burkhard <jdb@chello.at>\n"
  "Language-Team: Deutsch <de@li.org>\n"
  "MIME-Version: 1.0\n"
  "Content-Type: text/plain; charset=iso-8859-1\n"
