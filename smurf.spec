@@ -6,7 +6,7 @@ License:	GPL
 Group:		X11/Applications/Sound
 Group(pl):	X11/Aplikacje/D¼wiêk
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
-Source0:	http://download.sourceforge.net/smurf/%{name}-%{version}.tar.gz
+Source0:	ftp://download.sourceforge.net/pub/sourceforge/smurf/%{name}-%{version}.tar.gz
 Source1:	smurf.desktop
 URL:		http://smurf.sourceforge.net/
 BuildRequires:	audiofile-devel
