@@ -1,0 +1,11 @@
+--- smurf-0.52.6/po/de.po~	Wed Aug  4 01:12:47 2004
++++ smurf-0.52.6/po/de.po	Wed Aug  4 01:12:47 2004
+@@ -53,7 +53,7 @@
+ "Language-Team: Deutsch <de@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=iso-8859-1\n"
+-"Content-Transfer-Encoding: ENCODING\n"
++"Content-Transfer-Encoding: 8bit\n"
+ 
+ #: src/glade_interface.c:61 src/glade_interface.c:1452 src/uif_treemenu.c:101
+ msgid "Find"
