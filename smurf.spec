@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Group:		X11/Applications/Sound
-Source0:	ftp://download.sourceforge.net/pub/sourceforge/smurf/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/smurf/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-remove_private_gettext.m4.patch
 URL:		http://smurf.sourceforge.net/
@@ -21,7 +21,6 @@ BuildRequires:	gtk+-devel
 BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Smurf is a GTK based sound font editor. Sound font files are a
@@ -59,7 +58,6 @@ install -d $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
-
 
 %find_lang %{name}
 
