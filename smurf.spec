@@ -1,6 +1,6 @@
 Summary:	A GPL sound font editor
 Name:		smurf
-Version:	0.50.0
+Version:	0.50.1a
 Release:	1
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
