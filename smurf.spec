@@ -22,7 +22,6 @@ BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Smurf is a GTK based sound font editor. Sound font files are a
