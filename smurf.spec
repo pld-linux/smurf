@@ -11,9 +11,7 @@ Source0:	http://dl.sourceforge.net/smurf/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-remove_private_gettext.m4.patch
 URL:		http://smurf.sourceforge.net/
-%ifnarch sparc sparc64
 BuildRequires:	alsa-lib-devel
-%endif
 BuildRequires:	audiofile-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
