@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=smurf
+Type=Application/Multimedia
+Comment=A sound font editor
+Comment[pl]=Edytor fontów d¼wiêkowych
+Exec=smurf
+Terminal=0
