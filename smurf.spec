@@ -2,7 +2,7 @@ Summary:	A GPL sound font editor
 Summary(pl):	Edytor fontów d¼wiêkowych
 Name:		smurf
 Version:	0.52.6
-Release:	2
+Release:	3
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Group:		X11/Applications/Sound
@@ -52,11 +52,11 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
+install -d $RPM_BUILD_ROOT%{_desktopdir}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %find_lang %{name}
 
@@ -67,4 +67,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README ChangeLog
 %attr(755,root,root) %{_bindir}/smurf
-%{_applnkdir}/Multimedia/*
+%{_desktopdir}/*
