@@ -9,7 +9,6 @@ Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Source0:	http://download.sourceforge.net/smurf/%{name}-%{version}.tar.gz
 Source1:	smurf.desktop
 URL:		http://smurf.sourceforge.net/
-BuildRequires:	XFree86-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
