@@ -4,6 +4,6 @@ Type=Application
 Comment=A sound font editor
 Comment[pl]=Edytor fontów dźwiękowych
 Exec=smurf
-Terminal=0
+Terminal=false
 Encoding=UTF-8
 # vi: encoding=utf-8
