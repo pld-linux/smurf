@@ -1,7 +1,7 @@
 Summary:	A GPL sound font editor
 Name:		smurf
 Version:	0.49.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 Group(pl):	X11/Aplikacje/D¼wiêk
