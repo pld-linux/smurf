@@ -1,18 +1,18 @@
 Summary:	A GPL sound font editor
 Name:		smurf
 Version:	0.49.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Sound
 Group(pl):	X11/Aplikacje/D¼wiêk
-URL:		http://smurf.sourceforge.net
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Source0:	http://download.sourceforge.net/smurf/%{name}-%{version}.tar.gz
 Source1:	smurf.desktop
+URL:		http://smurf.sourceforge.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	gtk+-devel
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
@@ -41,9 +41,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
 install -d %{_applnkdir}/Multimedia
+
+make install DESTDIR=$RPM_BUILD_ROOT
 install %{SOURCE1} %{_applnkdir}/Multimedia
+
 gzip -9nf AUTHORS NEWS README ChangeLog
 
 %clean
