@@ -9,6 +9,7 @@ Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/smurf/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
+Patch0:		%{name}-remove_private_gettext.m4.patch
 URL:		http://smurf.sourceforge.net/
 %ifnarch sparc sparc64
 BuildRequires:	alsa-lib-devel
@@ -41,6 +42,7 @@ wykorzystywaæ dowoln± 16 bitow± kartê obs³ugiwan± przez OSS.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 libtoolize --copy --force
