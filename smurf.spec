@@ -7,6 +7,7 @@ License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/smurf/%{name}-%{version}.tar.gz
+# Source0-md5:	5fafbd7557112f8d3d794a8101075d84
 Source1:	%{name}.desktop
 Patch0:		%{name}-remove_private_gettext.m4.patch
 URL:		http://smurf.sourceforge.net/
