@@ -36,7 +36,7 @@ kartê obs³ugiwan± przez OSS.
 %build
 LDFLAGS="-s"; export LDFLAGS
 %configure
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
