@@ -1,6 +1,6 @@
 Summary:	A GPL sound font editor
 Name:		smurf
-Version:	0.50.1a
+Version:	0.52.1
 Release:	1
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
@@ -14,9 +14,12 @@ URL:		http://smurf.sourceforge.net/
 BuildRequires:	alsa-lib-devel
 %endif
 BuildRequires:	audiofile-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	libsndfile-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -40,7 +43,11 @@ wykorzystywaæ dowoln± 16 bitow± kartê obs³ugiwan± przez OSS.
 %setup -q
 
 %build
+libtoolize --copy --force
 gettextize --copy --force
+aclocal
+autoconf
+aitomake -a -c
 %configure
 %{__make}
 
