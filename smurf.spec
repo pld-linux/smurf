@@ -61,7 +61,6 @@ install -d $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
 
-gzip -9nf AUTHORS NEWS README ChangeLog
 
 %find_lang %{name}
 
@@ -70,6 +69,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS NEWS README ChangeLog
 %attr(755,root,root) %{_bindir}/smurf
 %{_applnkdir}/Multimedia/*
