@@ -2,7 +2,7 @@ Summary:	A GPL sound font editor
 Summary(pl):	Edytor fontów d¼wiêkowych
 Name:		smurf
 Version:	0.52.6
-Release:	3
+Release:	4
 License:	GPL
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Group:		X11/Applications/Sound
@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/smurf/%{name}-%{version}.tar.gz
 # Source0-md5:	5fafbd7557112f8d3d794a8101075d84
 Source1:	%{name}.desktop
 Patch0:		%{name}-remove_private_gettext.m4.patch
+Patch1:		%{name}-po.patch
 URL:		http://smurf.sourceforge.net/
 BuildRequires:	alsa-lib-devel
 BuildRequires:	audiofile-devel
@@ -34,11 +35,12 @@ Smurf to edytor "fontów d¼wiêkowych" oparty na bibliotece GTK. Pliki
 które razem opisuj± instrumenty dla kart d¼wiêkowych wykorzystuj±cych
 wavetable. Smurf aktualnie obs³uguje karty AWE 32/64, ma tak¿e
 ograniczone wsparcie dla sterowników GUS/SoftOSS, które mog±
-wykorzystywaæ dowoln± 16 bitow± kartê obs³ugiwan± przez OSS.
+wykorzystywaæ dowoln± 16-bitow± kartê obs³ugiwan± przez OSS.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
+%patch1 -p1
 
 %build
 rm -f missing
