@@ -42,7 +42,8 @@ make
 %install
 rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT
-
+install -d %{_applnkdir}/Multimedia
+install %{SOURCE1} %{_applnkdir}/Multimedia
 gzip -9nf AUTHORS NEWS README ChangeLog
 
 %clean
@@ -52,3 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %attr(755,root,root) %{_bindir}/smurf
+%{_applnkdir}/Multimedia/*
