@@ -8,10 +8,11 @@ Group(pl):	X11/Aplikacje/D¼wiêk
 URL:		http://smurf.sourceforge.net
 Vendor:		Josh Green <jgreen@users.sourceforge.net>
 Source0:	http://download.sourceforge.net/smurf/%{name}-%{version}.tar.gz
+Source1:	smurf.desktop
 BuildRequires:	XFree86-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	gtk+-devel
-BuildRoot:	/tmp/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define		_prefix		/usr/X11R6
 
