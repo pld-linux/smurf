@@ -69,4 +69,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README ChangeLog
 %attr(755,root,root) %{_bindir}/smurf
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
