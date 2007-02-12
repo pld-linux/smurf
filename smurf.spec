@@ -1,5 +1,5 @@
 Summary:	A GPL sound font editor
-Summary(pl):	Edytor fontów d¼wiêkowych
+Summary(pl.UTF-8):   Edytor fontÃ³w dÅºwiÄ™kowych
 Name:		smurf
 Version:	0.52.6
 Release:	4
@@ -29,13 +29,13 @@ for wavetable sound cards. Smurf currently supports the AWE 32/64 and
 has limited support for the GUS/SoftOSS driver which can use any OSS
 supported 16 bit sound card.
 
-%description -l pl
-Smurf to edytor "fontów d¼wiêkowych" oparty na bibliotece GTK+. Pliki
-"fontów" s± zbiorem próbek d¼wiêków po³±czonych z dodatkowymi danymi,
-które razem opisuj± instrumenty dla kart d¼wiêkowych wykorzystuj±cych
-wavetable. Smurf aktualnie obs³uguje karty AWE 32/64, ma tak¿e
-ograniczone wsparcie dla sterowników GUS/SoftOSS, które mog±
-wykorzystywaæ dowoln± 16-bitow± kartê obs³ugiwan± przez OSS.
+%description -l pl.UTF-8
+Smurf to edytor "fontÃ³w dÅºwiÄ™kowych" oparty na bibliotece GTK+. Pliki
+"fontÃ³w" sÄ… zbiorem prÃ³bek dÅºwiÄ™kÃ³w poÅ‚Ä…czonych z dodatkowymi danymi,
+ktÃ³re razem opisujÄ… instrumenty dla kart dÅºwiÄ™kowych wykorzystujÄ…cych
+wavetable. Smurf aktualnie obsÅ‚uguje karty AWE 32/64, ma takÅ¼e
+ograniczone wsparcie dla sterownikÃ³w GUS/SoftOSS, ktÃ³re mogÄ…
+wykorzystywaÄ‡ dowolnÄ… 16-bitowÄ… kartÄ™ obsÅ‚ugiwanÄ… przez OSS.
 
 %prep
 %setup -q
