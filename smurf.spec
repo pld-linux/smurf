@@ -1,5 +1,5 @@
 Summary:	A GPL sound font editor
-Summary(pl.UTF-8):   Edytor fontów dźwiękowych
+Summary(pl.UTF-8):	Edytor fontów dźwiękowych
 Name:		smurf
 Version:	0.52.6
 Release:	4
