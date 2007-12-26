@@ -5,6 +5,5 @@ Comment=A sound font editor
 Comment[pl]=Edytor fontów dźwiękowych
 Exec=smurf
 Terminal=false
-Encoding=UTF-8
 Categories=GTK;Audio;
 # vi: encoding=utf-8
