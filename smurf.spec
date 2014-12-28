@@ -16,7 +16,7 @@ BuildRequires:	alsa-lib-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+-devel
 BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
