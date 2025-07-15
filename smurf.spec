@@ -39,8 +39,8 @@ wykorzystywać dowolną 16-bitową kartę obsługiwaną przez OSS.
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 rm -f missing
